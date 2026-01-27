@@ -1,10 +1,6 @@
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* 로고와 메뉴 양끝 정렬 */
   align-items: center;
-  padding: 10px;
-}
-.LOGO {
-  font-weight: bold;
-  font-size: 2rem;
+  padding: 20px;
 }
