@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="08-project.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">LOGO</div>
+      <nav class="nav-links">
+        <a href="#">Heading 1</a>
+        <a href="#">Heading 2</a>
+        <a href="#">Heading 3</a>
+      </nav>
+    </header>
+
+    <main class="hero-section">
+      <div class="hero-content">
+        <h1>Heading 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          ipsa, ipsam eaque excepturi accusantium dolore consequatur velit
+          doloribus beatae mollitia!
+        </p>
+      </div>
+    </main>
+
+    <button class="top-button">TOP</button>
+  </body>
+</html>

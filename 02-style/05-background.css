@@ -1,0 +1,24 @@
+.box {
+  border: 4px;
+}
+
+.bg-color {
+  background-color: teal;
+}
+.clip {
+  background-color: orange;
+  border: 8px dashed;
+}
+.content-box {
+  background-clip: content-box;
+}
+
+/* background-image*/
+.bg-image {
+  background-image: url(../02-style/assets/hui\ \(1\).png);
+
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: FIXED;
+}

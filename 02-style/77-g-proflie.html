@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 기존 스타일 유지 */
+      div,
+      span {
+        border: 1px solid;
+      }
+
+      /* 이미지 관련 스타일만 살짝 추가 */
+      img {
+        display: block;
+        margin: 10px 0;
+        border: 2px solid blue; /* 이미지 구분을 위해 파란 테두리 추가 */
+      }
+    </style>
+  </head>
+  <body>
+    <h2>div와 span</h2>
+    <p>
+      div는 block 요소라 한 줄을 차지하고, span은 inline 요소라 내용만큼만
+      차지한다.
+    </p>
+    <div>1번째 div</div>
+    <div>2번째 div</div>
+    <div>3번째 div</div>
+
+    <span>1번째 span</span>
+    <span>2번째 span</span>
+    <span>3번째 span</span>
+
+    <h3>영역 지정</h3>
+    <div>
+      div는 사각형 박스로 영역이 잡힌다.<br />
+      줄이 바뀌면 다음 줄로 내려간다.
+    </div>
+    <span>
+      span은 문장 안의 일부처럼 표시된다.<br />
+      줄바꿈 없이 이어진다.
+    </span>
+
+    <h3>이미지 추가</h3>
+    <p>아래는 외부 주소를 이용한 이미지입니다.</p>
+    <img src="https://picsum.photos/200/200" alt="연습용 이미지" />
+
+    <p>내 컴퓨터의 사진을 쓸 때는 아래처럼 써보세요:</p>
+    <code>&lt;img src= "url(..hui(1).png)".jpg" alt="설명"&gt;</code>
+  </body>
+</html>

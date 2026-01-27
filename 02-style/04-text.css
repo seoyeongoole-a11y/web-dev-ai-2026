@@ -1,0 +1,51 @@
+/*font family*/
+.ff1 {
+  font-family: "돋움", "noto sans KR", sans-serif;
+}
+.ff2 {
+  font-family: "궁서", serif;
+}
+font-family: "changa one", sans-serif;
+
+/*font size*/
+.fs1{
+    font size: 20 px;
+}
+.fs2{
+    font size: 2em;
+}}
+.ff3{
+    font-size: 2rem;
+}
+/* clam (최소값, 기준값, 최대값)
+
+/*font-weight*/
+.fw2 {
+    font-weight: bold;
+}
+.fw3 {
+    font-weight: 100;
+}
+/* line-hight : 줄간격*/
+line-height:1.5
+
+.ta1 {
+    text-align: left;
+}
+.ta2 {
+    text-align: center;
+}
+.ta3 {
+    text-align: right;
+
+}
+.c-16{
+    color: #882a2a;
+}
+.c-rgb{
+    color: rgb,
+    backgroud: rgba
+}
+.c-hsl {
+    color:hsla
+}

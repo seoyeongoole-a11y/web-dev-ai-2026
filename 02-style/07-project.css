@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(120deg, rgb(255, 166, 0), rgb(207, 2, 54));
+}
+/* border */
+.border {
+  width: 130px;
+  height: 160px;
+}
+/* border: 테두리굵기 유형 색상 */
+#border1 {
+  /* solid : 실선, dashed : 점선, dotted : 도트 */
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: auto;
+}
+#border2 {
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+#border3 {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  margin: auto;
+.border3-image {
+    background-image: url(../02-style/assets/hui\ \(1\).png);
+    image-size:cover;
+    
+  }
+#border4 {
+  border: 1px background-color white;
+  border-radius: 5px
+}
+#border5 {
+    
+}
